@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.bg-custom {
+      background-color: #202530;
+}
+
+.lista {
+      align-self: center;
+      margin: auto;
+}
+
+.info {
+      margin-top: 4rem;
+      text-align: center;
+}
+
+.info div{
+      margin-bottom: 2rem;
+}
+
+.link {
+      color: #ccc;
+      text-decoration: none;
+}
+
+.link:hover {
+      color: #44f;
+      transition: color 0.15s;
+}
+
+footer {
+      margin: 0 2rem;
+      border-top: 1px solid #aaa;
+}

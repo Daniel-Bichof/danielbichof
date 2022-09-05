@@ -1,0 +1,10 @@
+<div class="cards">
+<!-- Cria os cards que mostram as skills -->
+      <div class="card" 
+      *ngFor="let item of itens;"> 
+            <!-- ngFor que busca os itens em um array e mostra os icones -->
+            <div class="card-img">
+                  <img style="filter: grayscale(90%) contrast(200%)" src="{{item.img}}"/>            
+            </div>
+      </div>
+</div>
