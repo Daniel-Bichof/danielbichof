@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-// https://andyraskin.com/#intro
-
-
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',

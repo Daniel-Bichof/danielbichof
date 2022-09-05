@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
+/* cor da pagina */
 .bg-custom {
       background-color: #202530;
 }
 
-.lista {
-      align-self: center;
-      margin: auto;
-}
-
+/* estilização das informações, sobre, formação e idioma  */
 .info {
       margin-top: 4rem;
       text-align: center;
@@ -20,7 +15,6 @@
 
 .link {
       color: #ccc;
-      text-decoration: none;
 }
 
 .link:hover {
@@ -28,7 +22,17 @@
       transition: color 0.15s;
 }
 
+/* estilo do rodapé */
 footer {
       margin: 0 2rem;
       border-top: 1px solid #aaa;
+}
+
+.contact {
+      justify-content: space-around;
+      padding: 1rem ;
+}
+
+.contact span {
+      margin: 0 1rem;
 }

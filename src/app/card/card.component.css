@@ -1,3 +1,5 @@
+
+/* estilo do corpo do card */
 .cards {
       padding: 2rem 10rem;
       margin: 0 10rem;
@@ -17,9 +19,11 @@
       border-radius: 20%;
 }
 
+/* muda cor das bordas do card */
+
 .card:hover {
       border: 1px solid #309bff;
-      box-shadow: 0 0 3px #3b9bff;
+      box-shadow: 0 0 4px #3b9bff;
 }
 
 @media (max-width: 1000px){
@@ -27,14 +31,13 @@
             width: 2rem;
             height: 2rem;
       } 
-      .card-img{
-            width: 1.5rem;
-      }
       .card img {
-            width: 15px;
+            width: 20px;
+            align-items: center;
       }
 }
 
+/* responsividade */
 @media (max-width: 800px){
       .cards {
             padding: 0.5rem;
